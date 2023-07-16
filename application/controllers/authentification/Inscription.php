@@ -12,6 +12,7 @@ class Inscription extends CI_Controller {
         $this->load->model('authentification_model');
 		$this->authentification_model->register_user();
 	}
+    
 
 	public function login_form(){
 		$this->authentification_model->login_user();
