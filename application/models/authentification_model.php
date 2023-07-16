@@ -1,4 +1,3 @@
-
 <?php
 
 class authentification_model extends CI_Model{
@@ -7,6 +6,7 @@ class authentification_model extends CI_Model{
     {
         parent::__construct();
         $this->load->database();
+        $this->load->library('session');
     }
 
     public function register_user(){
@@ -29,7 +29,7 @@ class authentification_model extends CI_Model{
 
             $this->db->insert('users',$data);
             $this->session->set_flashdata('suc','You are registered please login');
-            redirect('Auth/');
+            // redirect('Auth/');
 
         }
 
