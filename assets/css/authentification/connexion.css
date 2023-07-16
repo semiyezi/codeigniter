@@ -10,12 +10,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 25rem;
+    width: 28rem;
     padding: 2.5rem;
     box-sizing: border-box;
     border: 1px solid #dadce0;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+    min-height: 500px;
 }
 
 .google-logo {
@@ -106,7 +107,6 @@ body {
     box-shadow: 0 1px 1px 0 rgba(66, 133, 244, 0.45), 0 1px 3px 1px rgba(66, 133, 244, 0.3);
 }
 
-
 .box .inputBox input:focus~label,
 .box .inputBox input:valid~label,
 .box .inputBox input:not([value=""])~label {
@@ -129,11 +129,6 @@ body {
     margin-top: -20px;
 }
 
-.safety {
-    margin-top: 20px;
-    display: flex;
-    justify-content: left;
-}
 .forgot button {
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -156,8 +151,6 @@ body {
     align-items: center;
 }
 
-
-
 .button-compte button {
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -174,3 +167,4 @@ body {
     text-align: left;
     border: 0;
 }
+

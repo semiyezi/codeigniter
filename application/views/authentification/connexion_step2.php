@@ -36,7 +36,7 @@
         <h2>Bienvenue</h2>
         <form>
             <div class="inputBox">
-                <input type="text" name="text" required="" onkeyup="this.setAttribute('value', this.value);" value="">
+                <input type="text" name="password" required="" onkeyup="this.setAttribute('value', this.value);" value="">
                 <label>saissisez votre mot de passe</label>
                 
             </div>
