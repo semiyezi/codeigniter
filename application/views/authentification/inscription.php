@@ -16,9 +16,7 @@
 
         </div>
 
-        <form class="content" method="post"  action="<?php echo URL;?>index.php/authentification/inscription/registration_form"
-        
-        >
+        <form class="content" method="post"  action="<?php echo URL;?>index.php/authentification/inscription/registration_form">
 
             <div class="left">
                 <div class="image">
