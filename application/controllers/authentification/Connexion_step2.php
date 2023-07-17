@@ -1,6 +1,7 @@
 <?php
 
-class Connexion_step2 extends CI_Controller {
+class Connexion_step2 extends CI_Controller
+{
 
 	public function index()
 	{

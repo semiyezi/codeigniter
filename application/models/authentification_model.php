@@ -13,8 +13,6 @@ class authentification_model extends CI_Model{
 
         $password=$this->input->post('password');
         $con_password=$this->input->post('con_password');
-       
-
         if($password!=$con_password){
             $this->session->set_flashdata('worng','The password not equal with confirmation!');
             redirect('Auth/register');
@@ -24,17 +22,11 @@ class authentification_model extends CI_Model{
                 "nom"=>$this->input->post('nom'),
                 "email"=>$this->input->post('email'),
                 "password"=>$password,
-               
             );
 
             $this->db->insert('users',$data);
             $this->session->set_flashdata('suc','You are registered please login');
-            // redirect('Auth/');
-
         }
-
-
-
     }
 
     public function login_user(){
@@ -56,5 +48,3 @@ class authentification_model extends CI_Model{
     }
 
 }
-
-?>

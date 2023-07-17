@@ -167,4 +167,62 @@ body {
     text-align: left;
     border: 0;
 }
+.safety{
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin-top: 52px;
+    margin-bottom: 72px;
+}
+.more{
+    color: #1a73e8;
+    text-decoration: none;
+}
+.emailZone{
+    display: flex;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+ 
+    
+}
+.emailParent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.checkboxMp{
+    margin-bottom: 50px;
+}
+.itemUser{
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 150px;
+    padding: 2px 5px;
+}
+.itemUser{
+   
+}
+.itemChevronDown{
+    margin-left: 10px;
+}
+.labelCheckBox{
+    font-size: 14px;
+}
+.inputCheckBox{
+    font-size: 24px;
+}
+
+
 

