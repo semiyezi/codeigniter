@@ -17,6 +17,7 @@ class Connexion_step1 extends CI_Controller
 	public function connexion_redirect()
 	{
 		$email = $this->input->post('email1');
-		redirect(URL.'index.php/authentification/connexion_step2/index/'.$email);
+		$parties = explode("@", $email);
+		redirect(URL.'index.php/authentification/connexion_step2/index/'.$parties[0].'/'.$parties[1]);
 	}
 }
